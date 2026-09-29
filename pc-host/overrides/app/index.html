@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <title>Jack Sparrow Host · PS5 WebKit Autoloader</title>
+</head>
+
+<body>
+  <div id="splash" aria-hidden="false">
+    <button id="pirateStart" type="button" aria-label="Start WebKit"><img class="logo" src="pirate-emblem.webp" alt="Pirate skull and crossed swords" /></button>
+    <h1>Jack Sparrow Host</h1>
+    <p class="launchHint">Press the emblem to start WebKit · 7.61–13.60</p>
+  </div>
+
+  <iframe id="exploit" title="exploit"></iframe>
+
+
+  <main id="loader">
+    <div id="logWrapper">
+      <div id="logContainer"></div>
+    </div>
+
+    <div id="progressContainer">
+      <div id="progressBar"></div>
+      <div id="progressLabel">Loading...</div>
+    </div>
+  </main>
+
+  <footer id="footer">Jack Sparrow Host · Autoloader v[[VERSION_PLACEHOLDER]] by PLK (built [[BUILD_TIME_PLACEHOLDER]])<br />This project is free and open source: github.com/itsPLK/ps5-webkit-autoloader</footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
