@@ -237,7 +237,7 @@ body,#splash,#loader{background:#08151b;color:#f5e7ca}
 #pirateStart:focus{outline:2px solid #dfb56a;border-radius:50%}
 #pirateStart:disabled{opacity:.7}
 #splash h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,4rem);color:#f5dca7;margin-top:.2rem}
-.launchHint{font-size:1rem;color:#d4ad6d;margin-top:.6rem;text-align:center}
+.launchHint{font-size:clamp(1.3rem,3vw,2rem);font-weight:700;color:#d4ad6d;margin-top:.6rem;text-align:center}
 #logWrapper{background:#0b161b;border-color:#826c49;color:#f4e7ca}
 #progressBar{background:#d4ad6d}
 #footer{color:#b2aa97}
