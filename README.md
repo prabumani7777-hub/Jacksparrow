@@ -1,6 +1,6 @@
 # Jack Sparrow Host theme for PS5 WebKit Autoloader
 
-A visual override for [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader). The center pirate emblem starts the original `app.js` flow when clicked. It uses the upstream firmware checks and exploit iframe unchanged.
+It Just Chatgpt Test actual post visit from itsPLK A visual override for [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader). The center pirate emblem starts the original `app.js` flow when clicked. It uses the upstream firmware checks and exploit iframe unchanged.
 
 ## Use with the upstream PC host
 
